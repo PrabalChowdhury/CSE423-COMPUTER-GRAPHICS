@@ -1,29 +1,6 @@
 from OpenGL.GL import *
 from OpenGL.GLUT import *
 from OpenGL.GLU import *
-
-
-"""def draw_points(x, y):
-    glPointSize(5) #pixel size. by default 1 thake
-    glBegin(GL_POINTS)
-    glVertex2f(x,y) #jekhane show korbe pixel
-    glEnd()
-"""
-"""def drawLines():
-    glBegin(GL_LINES)
-    glVertex2f(100,150)
-    glVertex2f(400,150)
-    glVertex2f(100,150)
-    glVertex2f(250,450)
-    glVertex2f(400,150)
-    glVertex2f(250,450)
-    glVertex2f(100,350)
-    glVertex2f(400,350)
-    glVertex2f(100,350)
-    glVertex2f(250,50)
-    glVertex2f(400,350)
-    glVertex2f(250,50)
-    glEnd()"""
 def iterate():
     glViewport(0, 0, 1000, 1000)
     glMatrixMode(GL_PROJECTION)
